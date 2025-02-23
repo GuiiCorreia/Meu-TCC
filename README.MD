@@ -44,7 +44,7 @@ Para executar o projeto, siga os passos abaixo:
 
 #### 1️⃣ Gerar Amostra de Teste
 
-O arquivo `gerar_testes.py` seleciona uma amostra de 5.000 registros do conjunto de dados original (`dados_completos.csv`) e gera o arquivo `dados_teste.csv`. Para executar:
+Como a clusterização demora, criei um arquivo que gera dados de teste, o arquivo `gerar_testes.py` seleciona uma amostra de 5.000 registros do conjunto de dados original (`dados_completos.csv`) e gera o arquivo `dados_teste.csv`. Fique a vontade para usar caso não queira esperar a clusterização a partir dos dados completos. Para executar:
 
 ```bash
 python gerar_testes.py
